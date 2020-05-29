@@ -1,2 +1,2 @@
-# Le-site-cr-atif
+# Le-site-creatif
 Vous allez apprendre plein de chose à propos de .....

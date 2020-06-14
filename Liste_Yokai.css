@@ -1,0 +1,123 @@
+/********************* Liste Yokai ********************************/
+
+body{
+    background-image: url(https://tympanus.net/Tutorials/BlurMenu/images/pattern.png), url(images/kyoto-inari.jpg);
+    background-color: transparent;
+    background-repeat: repeat, no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: auto, cover;
+}
+header {
+    position:sticky;
+    top:-120px;
+    margin-top:20px;
+    display: flex;
+}
+/* Navigation */
+.Menu {
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.material-icons.Accueil, .icone{
+    font-size: xx-large;
+    color: darkgreen;
+    text-decoration: none;
+}
+.material-icons.Accueil:hover, .icone:hover{ color: green; }
+.Menu:hover{  border: green solid 1px;}
+h1 {
+    font-family: 'Acme', sans-serif;
+    color: beige; /*#1384ee;*/
+    margin-left: 450px;
+    text-decoration: underline;
+    /*background-color: cornsilk;
+    margin-left: auto;*/
+}
+
+main { text-align: center; }
+.content { display: inline-block; }
+
+.Menu_principal {
+    padding: 0px;
+    margin: 50px 0 10px 0;
+}
+ul {
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+li{
+    margin: 0;
+    padding: 0;
+}
+.Menu_principal li {
+    font-size: 25px;
+    font-family: 'Josefin Slab', Arial, sans-serif;
+}
+.Menu_principal li a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0px 0px 2px #1384ee;
+    color: #1384ee;
+    padding: 5px 20px;
+    margin: 2px;
+    background: rgba(0,0,0,0.7);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+}
+.Menu_principal:hover li a{
+	text-shadow: 0px 0px 10px #1384ee; /*#eeb213;*/
+	color: transparent;
+	background: rgba(0,0,0,0.2);
+}
+.Menu_principal li a:hover{
+	background: rgba(0,0,0,1.0);
+	text-shadow: 0px 0px 1px #1384ee; /*#eeb213;*/
+}
+
+/************************** Footer *************/
+.bg-purple{
+    background-color: #6f42c1 !important;
+    text-align: center;
+}
+.nav_footer{
+    width: 150px;
+    display: inline-block;
+}
+.team{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.team:hover{
+    text-decoration: underline white;
+}
+.social-media {
+    width: 250px;
+    display: inline-block;
+}
+h4 { color: white; }
+.resaux{
+    vertical-align: middle;
+    width: 70px; 
+    border-radius: 50%;
+}
+.resaux:hover { background-color: slategrey; }
+.container { padding-top: 15px; }
+.credits{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}

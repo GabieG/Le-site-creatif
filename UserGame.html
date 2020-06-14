@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="AW,ST,GG">
+    <title>Le Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fichier CSV pour les questions du quiz -->
+    <link rel="listequestions" href="questions.csv">
+    <!-- police spéciale -->
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"> <!-- quiz -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- icone home -->
+    <!-- Mettre une icone pour l'onglet -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header> <!-- En-tête du site -->
+        <h1>L'heure du Quiz !</h1>
+        <nav class="Menu"> <!-- navigation du site -->
+            <a class="icone" href="index.html"><i class="material-icons Accueil">home</i>Home</a>
+        </nav>
+    </header>
+    <main class="general">
+        <h2>Questionnaire à propos des yokai :</h2>
+        <p class="explication">
+            Vous allez pouvoir tester vos connaissances à propos des myhthes sur les yokai que vous avez pu découvrir
+            dans la section "Découverte". Avez-vous tous bien retenus ? C'est parti !  
+        </p>
+       <!--<form method="post" action="score.html" onsubmit="return false;" id="Form" name="formulaire">-->
+            <div class="quiz-container">
+                <div id="quiz"></div>
+            </div>
+            <div class="validation">
+                <button id="submit" >Envoyer</button> <!-- onclick="showResults" -->
+                <div id="results"></div>
+                <!--<div class="correction"></div>-->
+            </div>
+        <!--</form>-->
+
+    </main>
+    <script src="Quiz.js"></script> <!-- Uniquement le javascript -->
+
+    <footer class="bg-purple"><!-- navigation Footer (réseaux sociaux) -->
+        <div class="nav_footer">
+            <a class="team" href="Apropos.html">Notre équipe</a>
+        </div>
+        <div class="social-media">
+            <h4>Follow Gabrielle</h4>
+            <a href="https://www.facebook.com/" target="_blank"><img class="resaux" src="images/profil/Facebook.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img class="resaux" src="images/profil/Insta.svg" alt="Instagram"></a>
+            <a href="https://twitter.com/" target="_blank"><img class="resaux" src="images/profil/Twitter.svg" alt="Twitter"></a>
+        </div>
+        <div class="social-media">
+            <h4>Follow Sébastien</h4>
+            <a href="https://www.facebook.com/" target="_blank"><img class="resaux" src="images/profil/Facebook.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img class="resaux" src="images/profil/Insta.svg" alt="Instagram"></a>
+            <a href="https://twitter.com/" target="_blank"><img class="resaux" src="images/profil/Twitter.svg" alt="Twitter"></a>
+        </div>
+        <div class="social-media">
+            <h4>Follow Ambroise</h4>
+            <a href="https://www.facebook.com/" target="_blank"><img class="resaux" src="images/profil/Facebook.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img class="resaux" src="images/profil/Insta.svg" alt="Instagram"></a>
+            <a href="https://twitter.com/" target="_blank"><img class="resaux" src="images/profil/Twitter.svg" alt="Twitter"></a>
+        </div>
+        <!-- container -->
+        <div class="container">
+            <p class="credits">Copyright &copy; Website 2020 - AW / ST / GG</p>
+        </div>
+    </footer>
+</body>
+</html>

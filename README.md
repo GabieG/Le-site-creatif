@@ -1,2 +1,2 @@
 # Le-site-creatif
-Vous allez apprendre plein de chose à propos de .....
+Vous allez apprendre plein de chose à propos de la mythologie japonaise avec des créatures telles que les Yokais ! Vous y trouverez une page "Découverte" dans laquelle sont décrites chacune des légendes concerant les yokais. Quand vous aurez fini de lire tous ces articles, un quiz vous y attend pour savoir si vous avez bien retenus les nouvelles choses que vous aurez apprises ! :D
